@@ -19,12 +19,17 @@ The original book was written using C++ and Smalltalk as examples.
 First we build the image
 
 ```
-docker built -t javajdk .
+docker build -t javajdk:14 .
 ```
 
 Run the container in background
 ```
-docker run -d javajdk
+docker run -d --name javajdk javajdk:14
+```
+
+Copy the JDK in the "jdk" folder
+```
+docker cp javajdk:jdk.tar.gz jdk
 ```
 
 ## Running the tests
