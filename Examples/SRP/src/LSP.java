@@ -42,6 +42,16 @@ class Rectangle {
     }
 }
 
+class RectangleFactory {
+    public static Rectangle newRectangle(int width, int height) {
+        return new Rectangle(width, height);
+    }
+
+    public static Rectangle newSquare(int side) {
+        return  newRectangle(side, side);
+    }
+}
+
 class Square extends Rectangle {
     public Square() {}
 
@@ -74,11 +84,10 @@ class Demo2 {
     }
 
     public static void main(String[] args) {
-        Rectangle rc = new Rectangle(2,3);
+        Rectangle rc = RectangleFactory.newRectangle(2, 3);
         useIt(rc);
 
-        Rectangle sq = new Square();
-        sq.setWidth(5);
+        Rectangle sq = RectangleFactory.newSquare(2);
         useIt(sq);
     }
 }
