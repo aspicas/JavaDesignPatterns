@@ -2,43 +2,55 @@ class Document {
 
 }
 
-interface Machine {
+class OldFashionedPrinter implements Printer {
+    @Override
+    public void print(Document d) {
+        //
+    }
+}
+
+interface Printer {
     void print(Document d);
-    void fax(Document d) throws Exception;
+}
+
+interface Scanner {
     void scan(Document d);
 }
 
-class MultiFunctionPrinter implements Machine {
+class JustAPrinter implements Printer {
     @Override
     public void print(Document d) {
-        //
-    }
-
-    @Override
-    public void fax(Document d) throws Exception {
-        //
-    }
-
-    @Override
-    public void scan(Document d) {
         //
     }
 }
 
-class OldFashionedPrinter implements Machine {
+class Photocopier implements Printer, Scanner {
     @Override
     public void print(Document d) {
-        //
-    }
 
-    @Override
-    public void fax(Document d) throws Exception {
-        throw new Exception();
     }
 
     @Override
     public void scan(Document d) {
-        //
+
+    }
+}
+
+interface MultiFunctionDevice extends Printer, Scanner {}
+
+class MultiFunctionMachine implements MultiFunctionDevice {
+
+    private Printer printer;
+    private Scanner scanner;
+
+    @Override
+    public void print(Document d) {
+        printer.print(d);
+    }
+
+    @Override
+    public void scan(Document d) {
+        scanner.scan(d);
     }
 }
 
