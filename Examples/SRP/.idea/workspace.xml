@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="" />
+    <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_javatuples_javatuples_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SRP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/ISP-DC-Right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/ISP-DC-Wrong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/LSP-DC-Error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/LSP-DC-Right1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/LSP-DC-Right2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/LSP-DS-Error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/LSP-DS-Right2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/OCP-DC-Error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/OCP-DC-Right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/OCPError.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/diagrams/OCPRight.jpg" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +37,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3285" />
+          <entry key="java" value="3764" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3285" />
+          <entry key="JAVA" value="3764" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -75,16 +91,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ISP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="518">
+              <caret line="56" selection-start-line="56" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="e#741#742#0" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/OCP.java" />
         <option value="$PROJECT_DIR$/src/LSP.java" />
         <option value="$PROJECT_DIR$/src/ISP.java" />
+        <option value="$PROJECT_DIR$/src/DIP.java" />
       </list>
     </option>
   </component>
@@ -148,8 +181,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537398510526" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537401202883" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -310,6 +346,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="111" column="69" selection-start-line="111" selection-start-column="69" selection-end-line="111" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -342,13 +381,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ISP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="518">
+          <caret line="56" selection-start-line="56" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="e#741#742#0" expanded="true" />
             <element signature="e#773#774#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -417,6 +470,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>org.javatuples:javatuples:1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
