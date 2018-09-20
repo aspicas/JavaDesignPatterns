@@ -2,6 +2,8 @@ import org.javatuples.Triplet;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 enum Relationship {
     PARENT,
@@ -18,29 +20,37 @@ class Person {
     }
 }
 
-class Relationships {
-    private List<Triplet<Person, Relationship, Person>> relations = new ArrayList<>();
+interface RelationshipBrowser {
+    List<Person> findAllChildrenOf(String name);
+}
 
-    public List<Triplet<Person, Relationship, Person>> getRelations() {
-        return relations;
-    }
+class Relationships implements RelationshipBrowser { // low-level: because is related to data storage
+    private List<Triplet<Person, Relationship, Person>> relations = new ArrayList<>();
 
     public void addParentAndChild(Person parent, Person child) {
         relations.add(new Triplet<>(parent, Relationship.PARENT, child));
         relations.add(new Triplet<>(child, Relationship.CHILD, parent));
     }
+
+    @Override
+    public List<Person> findAllChildrenOf(String name) {
+        return relations.stream()
+                .filter(x -> Objects.equals(x.getValue0().name, name)
+                        && x.getValue1() == Relationship.PARENT)
+                .map(Triplet::getValue2)
+                .collect(Collectors.toList());
+    }
 }
 
-class Research {
-    public Research(Relationships relationship){
-        List<Triplet<Person, Relationship, Person>> relations = relationship.getRelations();
-        relations.stream()
-                .filter(x -> x.getValue0().name.equals("John")
-                        && x.getValue1() == Relationship.PARENT)
-                .forEach(ch -> System.out.println(
-                        "John has a child called " + ch.getValue2().name
-                ));
+class Research { // high-level: Allow us to perform some sort operations on those low level constructs
+
+    public Research(RelationshipBrowser browser) {
+        List<Person> children = browser.findAllChildrenOf("John");
+        for (Person child : children) {
+            System.out.println("John has a child called " + child.name);
+        }
     }
+
 }
 
 class Demo4 {
