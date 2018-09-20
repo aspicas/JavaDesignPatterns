@@ -4,25 +4,32 @@ Design Patterns in Java from a practical perspective.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Project that use design patterns of the famous book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, John Vlissides, Ralph Johnson and Richard Helm (who are commonly known as a Gang of Four, hence the GoF acronym).
+
+The original book was written using C++ and Smalltalk as examples.
 
 ### Prerequisites
 
-Install docker:
-
-[Docker](https://docs.docker.com/install/) - To use a defaul sdk
+1. Install docker
+2. Install IDE
+3. Define JDK in the IDE
 
 ### Installing
 
 First we build the image
 
 ```
-docker built -t javajdk .
+docker build -t javajdk:14 .
 ```
 
 Run the container in background
 ```
-docker run -d javajdk
+docker run -d --name javajdk javajdk:14
+```
+
+Copy the JDK in the "jdk" folder
+```
+docker cp javajdk:jdk.tar.gz jdk
 ```
 
 ## Running the tests
@@ -63,9 +70,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **David Garcia** - *Initial work* - [aspicas](https://github.com/aspicas)
+* **David Garcia** - *Just fun* - [aspicas](https://github.com/aspicas)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/aspicas/JavaDesignPatterns/blob/master/LICENSE) file for details
 
