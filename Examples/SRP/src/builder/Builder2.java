@@ -1,3 +1,5 @@
+package builder;
+
 class Person2 {
     public String name;
     public String position;
