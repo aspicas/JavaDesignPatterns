@@ -38,6 +38,7 @@ class HtmlElement {
     public String toString() {
         return toStringImpl(0);
     }
+
 }
 
 class HtmlBuilder {
