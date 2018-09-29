@@ -1,33 +1,61 @@
 package builder;
 
 import java.util.ArrayList;
+import java.util.List;
 
-class CodeBuilder {
+class Field
+{
+    public String type, name;
 
-    public ArrayList<String> fields = new ArrayList<>();
-    private final String newLine = System.lineSeparator();
-
-    public CodeBuilder(String className) {
-        fields.add(String.format("public class %s%s{%s", className, newLine, newLine));
+    public Field(String name, String type) {
+        this.type = type;
+        this.name = name;
     }
 
-    public CodeBuilder addField(String name, String type) {
-        if (!name.isEmpty() && !type.isEmpty()) {
-            String field = String.format("  public %s %s;%s", type, name, newLine);
-            fields.add(field);
-        }
+    @Override
+    public String toString() {
+        return String.format("public %s %s;", type, name);
+    }
+}
+
+class Class
+{
+    public String name;
+    public List<Field> fields = new ArrayList<>();
+
+    public Class(){}
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        String nl = System.lineSeparator();
+        sb.append("public class " + name).append(nl)
+                .append("{").append(nl);
+        for (Field f : fields)
+            sb.append("  " +  f).append(nl);
+        sb.append("}").append(nl);
+        return sb.toString();
+    }
+}
+
+class CodeBuilder {
+    private Class theClass = new Class();
+
+    public CodeBuilder(String rootName)
+    {
+        theClass.name = rootName;
+    }
+
+    public CodeBuilder addField(String name, String type)
+    {
+        theClass.fields.add(new Field(name, type));
         return this;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (String field : fields)
-            sb.append(field);
-        sb.append(String.format("}%s", newLine));
-        return sb.toString();
+        return theClass.toString();
     }
-
 }
 
 class Demo8 {
