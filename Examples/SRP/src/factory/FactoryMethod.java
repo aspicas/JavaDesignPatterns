@@ -21,8 +21,6 @@ class Point {
 
 }
 
-
-
 class Demo9 {
     public static void main(String[] args) {
         Point point = Point.Factory.newCartesianPoint(2, 3);
