@@ -2,7 +2,7 @@ package prototype;
 
 import java.util.Arrays;
 
-class Address {
+class Address implements Cloneable {
     public String streetName;
     public int houseNumber;
 
@@ -18,9 +18,15 @@ class Address {
                 ", houseNumber=" + houseNumber +
                 '}';
     }
+
+    // deep copy
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return new Address(streetName, houseNumber); // String and int are not references
+    }
 }
 
-class Person {
+class Person implements Cloneable {
     public String [] names;
     public Address address;
 
@@ -36,14 +42,23 @@ class Person {
                 ", address=" + address +
                 '}';
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return new Person(
+                names.clone(),
+                (Address) address.clone()
+        );//Names and address are references too
+    }
 }
 
 class Demo12 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+            throws Exception {
         Person john = new Person(
                 new String[]{"John", "Smith"},
                 new Address("London Road", 123));
-        Person jane = john;
+        Person jane = (Person) john.clone();
         jane.names[0] = "Jane";
         jane.address.houseNumber = 124;
 
