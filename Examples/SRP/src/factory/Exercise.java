@@ -19,18 +19,18 @@ class Person {
 }
 
 class PersonFactory {
-    private static int id = -1;
+    private int id = -1;
 
-    public static Person createPerson(String name) {
-        ++id;
-        return new Person(id, name);
+    public Person createPerson(String name) {
+        return new Person(id++, name);
     }
 }
 
 class Demo11 {
     public static void main(String[] args) {
-        Person person = PersonFactory.createPerson("Luis");
-        Person person1 = PersonFactory.createPerson("Pepe");
+        PersonFactory pf = new PersonFactory();
+        Person person = pf.createPerson("Luis");
+        Person person1 = pf.createPerson("Pepe");
 
         System.out.println(person);
         System.out.println(person1);
