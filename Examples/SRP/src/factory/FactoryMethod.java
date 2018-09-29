@@ -1,16 +1,30 @@
 package factory;
 
+enum CoordinateSystem {
+    CARTESIAN,
+    POLAR
+}
+
 class Point {
     private double x, y;
 
-    public Point(double x, double y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public Point(double rho, double theta){
-        x = rho * Math.cos(theta);
-        y = rho * Math.sin(theta);
+    /**
+     *
+     * @param a is x if cartisian or rho if polar
+     * @param b
+     * @param cs
+     */
+    public Point(double a, double b, CoordinateSystem cs) {
+        switch (cs){
+            case POLAR:
+                x = a * Math.cos(b);
+                y = a * Math.sin(b);
+                break;
+            case CARTESIAN:
+                this.x = a;
+                this.y = b;
+                break;
+        }
     }
 }
 
