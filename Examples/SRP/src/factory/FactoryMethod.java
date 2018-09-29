@@ -3,11 +3,13 @@ package factory;
 class Point {
     private double x, y;
 
-    private Point(double x, double y) {
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
+}
 
+class PointFactory {
     public static Point newCartesianPoint(double x, double y) {
         return new Point(x, y);
     }
@@ -20,6 +22,7 @@ class Point {
 
 class Demo9 {
     public static void main(String[] args) {
-        Point point = Point.newPolarPoint(2, 3);
+        Point point = PointFactory.newCartesianPoint(2, 3);
+        Point point1 = new Point(2, 3);
     }
 }
