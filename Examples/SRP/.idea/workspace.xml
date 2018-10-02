@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/CopySerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SRP.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10574" />
+          <entry key="java" value="11014" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10574" />
+          <entry key="JAVA" value="11014" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -59,43 +57,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/prototype/BadDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/prototype/CopyConstructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/prototype/CopySerialization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/SerializationUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/prototype/Exercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="102" column="41" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               <folding>
-                <element signature="e#4425#4426#0" expanded="true" />
-                <element signature="e#4479#4480#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/prototype/BadDefinition.java" />
         <option value="$PROJECT_DIR$/src/prototype/CopyConstructor.java" />
         <option value="$PROJECT_DIR$/src/prototype/CopySerialization.java" />
+        <option value="$PROJECT_DIR$/src/prototype/Exercise.java" />
       </list>
     </option>
   </component>
@@ -187,7 +167,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538350010195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538450631979" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdk1.8.0_181/jre/lib/ext/jfxrt.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -210,7 +190,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="prototype.Demo14" />
+      <option name="MAIN_CLASS_NAME" value="prototype.Demo15" />
       <module name="SRP" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -445,30 +425,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prototype/CopyConstructor.java">
+    <entry file="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/SerializationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-55">
+          <caret line="102" column="41" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="41" />
+          <folding>
+            <element signature="e#4425#4426#0" expanded="true" />
+            <element signature="e#4479#4480#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/prototype/CopySerialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="405">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/SerializationUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/prototype/CopyConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="102" column="41" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="41" />
+        <state relative-caret-position="15">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
           <folding>
-            <element signature="e#4425#4426#0" expanded="true" />
-            <element signature="e#4479#4480#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
