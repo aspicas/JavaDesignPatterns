@@ -23,6 +23,11 @@ class BasicSingleton implements Serializable {
     public void setValue(int value) {
         this.value = value;
     }
+
+    // Serializable property
+    protected Object readResolve() {
+        return INSTANCE;
+    }
 }
 
 class Demo15 {
