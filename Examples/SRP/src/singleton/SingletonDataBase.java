@@ -13,7 +13,11 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-class SingletonDataBase {
+interface Database {
+    int getPopulation(String name);
+}
+
+class SingletonDataBase implements Database {
 
     private Dictionary<String, Integer> capitals = new Hashtable<>();
     private static int instanceCount = 0;
@@ -59,8 +63,41 @@ class SingletonRecordFinder {
     }
 }
 
+class ConfigurableRecordFinder {
+
+    private Database database;
+
+    public ConfigurableRecordFinder(Database database) {
+        this.database = database;
+    }
+
+    public int getTotalPopulation(List<String> names) {
+        int result = 0;
+        for (String name : names)
+            result += database.getPopulation(name);
+        return result;
+    }
+}
+
+class DummyDatabase implements Database {
+
+    private Dictionary<String, Integer> data = new Hashtable<>();
+
+    public DummyDatabase() {
+        data.put("alpha", 1);
+        data.put("beta", 2);
+        data.put("gamma", 3);
+    }
+
+    @Override
+    public int getPopulation(String name) {
+        return data.get(name);
+    }
+
+}
+
 class Tests {
-    @Test
+    @Test // not a unit test! -> integration test
     public void singletonTotalPopulationTest() {
         SingletonRecordFinder rf = new SingletonRecordFinder();
         List<String> names = List.of("Seoul", "Mexico City");
@@ -68,4 +105,13 @@ class Tests {
         assertEquals(17500000 + 17400000, tp);
     }
 
+    @Test
+    public void dependentPopulationTest() {
+        DummyDatabase db = new DummyDatabase();
+        ConfigurableRecordFinder rf = new ConfigurableRecordFinder(db);
+        assertEquals(4, rf.getTotalPopulation(
+                List.of("alpha", "gamma")
+        ));
+    }
 }
+
