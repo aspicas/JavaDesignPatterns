@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +16,7 @@ class StaticBlockSingleton {
         try {
             instance = new StaticBlockSingleton();
         } catch (Exception e) {
-            System.err.println("failed to create singleton");
+            System.err.println("failed to create creational.singleton");
         }
     }
 

@@ -1,4 +1,4 @@
-package prototype;
+package creational.prototype;
 
 class Point
 {

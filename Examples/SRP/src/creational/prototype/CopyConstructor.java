@@ -1,4 +1,4 @@
-package prototype;
+package creational.prototype;
 
 class Address2 {
     public String streetAddress, city, country;

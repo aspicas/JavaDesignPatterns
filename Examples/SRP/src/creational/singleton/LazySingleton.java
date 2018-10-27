@@ -1,11 +1,11 @@
-package singleton;
+package creational.singleton;
 
 class LazySingleton {
 
     private static LazySingleton instance;
 
     private LazySingleton() {
-        System.out.println("Initializing a lazy singleton");
+        System.out.println("Initializing a lazy creational.singleton");
     }
 
 //    public static synchronized LazySingleton getInstance() {
