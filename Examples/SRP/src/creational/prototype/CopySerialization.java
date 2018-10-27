@@ -1,4 +1,4 @@
-package prototype;
+package creational.prototype;
 
 import org.apache.commons.lang3.SerializationUtils;
 

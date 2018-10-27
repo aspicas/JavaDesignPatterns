@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 import com.google.common.collect.Iterables;
 import org.junit.Test;

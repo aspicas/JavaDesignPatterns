@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 import javafx.util.Pair;
 import org.reflections.Reflections;
@@ -54,7 +54,7 @@ class HotDrinkMachine {
     private List<Pair<String, HotDrinkFactory>> namedFactories = new ArrayList<>();
 
     public HotDrinkMachine() throws Exception {
-        Set<Class<? extends HotDrinkFactory>> types = new Reflections("factory").getSubTypesOf(HotDrinkFactory.class);
+        Set<Class<? extends HotDrinkFactory>> types = new Reflections("creational/factory").getSubTypesOf(HotDrinkFactory.class);
         for (Class<? extends HotDrinkFactory> type: types) {
             namedFactories.add(new Pair<>(
                     type.getSimpleName().replace("Factory", ""),
