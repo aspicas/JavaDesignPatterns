@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="" />
+    <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,27 +39,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14054" />
+          <entry key="java" value="14411" />
           <entry key="txt" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14054" />
+          <entry key="JAVA" value="14411" />
           <entry key="PLAIN_TEXT" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="groovy" value="1" />
-          <entry key="java" value="45" />
+          <entry key="java" value="46" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="46" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -69,10 +72,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/singleton/Basic.java">
+        <entry file="file://$PROJECT_DIR$/src/structural/adapter/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="578">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/singleton/capitals.txt" />
         <option value="$PROJECT_DIR$/src/singleton/TestsTest.groovy" />
         <option value="$PROJECT_DIR$/src/singleton/SingletonDataBase.java" />
+        <option value="$PROJECT_DIR$/src/structural/adapter/Adapter.java" />
       </list>
     </option>
   </component>
@@ -143,9 +150,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +165,12 @@
               <item name="SRP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SRP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SRP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,7 +181,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540671555060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540675263116" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -198,11 +211,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="singleton.Demo17" />
+      <option name="MAIN_CLASS_NAME" value="structural.adapter.Demo18" />
       <module name="SRP" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -212,7 +225,7 @@
     </configuration>
     <configuration name="Test" type="JUnit" factoryName="JUnit">
       <module name="SRP" />
-      <option name="PACKAGE_NAME" value="singleton" />
+      <option name="PACKAGE_NAME" value="creational.singleton" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -262,9 +275,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="36" width="1608" height="868" extended-state="6" />
+    <frame x="0" y="36" width="1600" height="864" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.34105533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.34555984" />
       <window_info id="Structure" order="1" sideWeight="0.50068027" side_tool="true" weight="0.32368082" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -278,7 +292,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" visible="true" weight="0.32380953" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" weight="0.32380953" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006435" side_tool="true" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292517" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3292517" />
@@ -397,27 +411,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Builder2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/FacetedBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Builder2.java" />
+    <entry file="file://$PROJECT_DIR$/src/builder/FacetedBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/builder/Builder.java" />
     <entry file="file://$PROJECT_DIR$/src/DIP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -425,48 +421,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/FactoryMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prototype/BadDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prototype/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/AbstractFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/builder/Exercise.java" />
+    <entry file="file://$PROJECT_DIR$/src/factory/Exercise.java" />
+    <entry file="file://$PROJECT_DIR$/src/factory/FactoryMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/prototype/BadDefinition.java" />
+    <entry file="file://$PROJECT_DIR$/src/prototype/Exercise.java" />
     <entry file="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1-sources.jar!/org/apache/commons/lang3/SerializationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-795">
@@ -474,104 +434,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prototype/CopyConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prototype/CopySerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/StaticBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/InnerStaticSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/EnumBasedSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/LazySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prototype/CopyConstructor.java" />
+    <entry file="file://$PROJECT_DIR$/src/prototype/CopySerialization.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/StaticBlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/InnerStaticSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/EnumBasedSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/LazySingleton.java" />
     <entry file="file://$PROJECT_DIR$/src/singleton/TestsTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/singleton/Monostate.java">
+    <entry file="file://$PROJECT_DIR$/src/singleton/Monostate.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/capitals.txt" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/SingletonDataBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/singleton/Basic.java" />
+    <entry file="file://$PROJECT_DIR$/src/structural/adapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/capitals.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/SingletonDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+        <state relative-caret-position="578">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#2418#2419#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/singleton/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
         </state>
       </provider>
     </entry>
