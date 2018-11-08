@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural/adapter/bridge/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composite/Composite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/adapter/Exersice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/Exersice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/bridge/Bridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/bridge/Brigde2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/bridge/Brigde2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/adapter/bridge/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/bridge/Exercise.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +21,7 @@
     <session id="-1310792482">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -27,40 +32,41 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="4" />
-          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="16400" />
+          <entry key="java" value="17037" />
           <entry key="txt" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16400" />
+          <entry key="JAVA" value="17037" />
           <entry key="PLAIN_TEXT" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="groovy" value="1" />
-          <entry key="java" value="59" />
+          <entry key="java" value="60" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="60" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -73,36 +79,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural/adapter/bridge/Bridge.java">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/Bridge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-              <folding>
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/Exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural/adapter/bridge/Exercise.java">
+        <entry file="file://$PROJECT_DIR$/src/structural/composite/Composite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="653">
+              <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,6 +178,8 @@
         <option value="$PROJECT_DIR$/src/structural/adapter/bridge/Bridge.java" />
         <option value="$PROJECT_DIR$/src/structural/adapter/bridge/Brigde2.java" />
         <option value="$PROJECT_DIR$/src/structural/adapter/bridge/Exercise.java" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/Exercise.java" />
+        <option value="$PROJECT_DIR$/src/structural/composite/Composite.java" />
       </list>
     </option>
   </component>
@@ -189,7 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,28 +212,21 @@
               <item name="SRP" type="b2602c69:ProjectViewProjectNode" />
               <item name="SRP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SRP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541386148793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541645977669" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -261,7 +260,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="structural.adapter.bridge.Demo21" />
+      <option name="MAIN_CLASS_NAME" value="structural.composite.Demo22" />
       <module name="SRP" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -324,7 +323,7 @@
     <frame x="0" y="36" width="1600" height="864" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.14350064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.14929216" />
       <window_info id="Structure" order="1" sideWeight="0.50068027" side_tool="true" weight="0.32368082" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -338,7 +337,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" visible="true" weight="0.32108843" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" weight="0.3202171" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006435" side_tool="true" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292517" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3292517" />
@@ -526,21 +525,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter/adapter/Adapter.java">
+    <entry file="file://$PROJECT_DIR$/src/structural/adapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
           <caret line="137" column="6" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter/adapter/Exersice.java">
+    <entry file="file://$PROJECT_DIR$/src/structural/adapter/Exersice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter/bridge/Brigde2.java">
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/Brigde2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="76" column="27" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="27" />
@@ -550,34 +549,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter/bridge/Bridge.java">
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter/bridge/Exercise.java">
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/Exercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
           </folding>
         </state>
       </provider>

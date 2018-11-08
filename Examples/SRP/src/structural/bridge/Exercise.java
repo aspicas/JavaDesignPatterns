@@ -1,4 +1,4 @@
-package structural.adapter.bridge;
+package structural.bridge;
 
 interface Renderer3 {
     public String whatToRenderAs();
