@@ -1,6 +1,5 @@
 package structural.adapter;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.function.Consumer;
 
