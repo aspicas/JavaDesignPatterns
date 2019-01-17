@@ -52,6 +52,5 @@ class Demo23 {
         neuron.connectTo(layer);
         layer.connectTo(neuron);
         layer.connectTo(layer2);
-
     }
 }
