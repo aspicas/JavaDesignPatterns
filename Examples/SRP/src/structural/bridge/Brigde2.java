@@ -1,4 +1,4 @@
-package structural.adapter.bridge;
+package structural.bridge;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;

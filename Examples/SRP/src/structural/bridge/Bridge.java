@@ -1,4 +1,4 @@
-package structural.adapter.bridge;
+package structural.bridge;
 //Why exits
 //Shape -> Circle, Square
 //Rendering -> Vector, Raster

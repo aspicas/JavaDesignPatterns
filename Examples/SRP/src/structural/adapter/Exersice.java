@@ -1,4 +1,4 @@
-package structural.adapter.adapter;
+package structural.adapter;
 
 class Square {
 
