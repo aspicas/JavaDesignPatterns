@@ -343,7 +343,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548777941040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548784409879" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -373,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo22">
+  <component name="RunManager" selected="Application.Demo23 (1)">
     <configuration name="Demo20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.decorator.Demo20" />
       <module name="SRP" />
@@ -413,12 +413,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.Demo23" />
+    <configuration name="Demo23 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.decorator.Demo23" />
       <module name="SRP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,20 +463,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Demo23" />
       <item itemvalue="Application.Demo24" />
-      <item itemvalue="JUnit.Test" />
       <item itemvalue="Application.Demo20" />
       <item itemvalue="Application.Demo21" />
       <item itemvalue="Application.Demo22" />
+      <item itemvalue="JUnit.Test" />
+      <item itemvalue="Application.Demo23 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo23 (1)" />
         <item itemvalue="Application.Demo22" />
         <item itemvalue="Application.Demo21" />
         <item itemvalue="Application.Demo20" />
         <item itemvalue="Application.Demo24" />
-        <item itemvalue="Application.Demo23" />
       </list>
     </recent_temporary>
   </component>
