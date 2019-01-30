@@ -50,6 +50,14 @@ class Console {
         viewPorts.add(viewPort);
     }
 
+    public static Console newConsole(int width, int height){
+        Buffer buffer = new Buffer(width, height);
+        ViewPort viewPort = new ViewPort(buffer, width, height, 0, 0);
+        Console console = new Console(width, height);
+        console.addViewPort(viewPort);
+        return  console;
+    }
+
     public void render() {
         for (int y = 0; y < height; ++y) {
             for (int x = 0; x < width; ++x) {
@@ -63,10 +71,15 @@ class Console {
 
 class Demo25 {
     public static void main(String[] args) {
+        //Without the facade
         Buffer buffer = new Buffer(30, 20);
         ViewPort viewPort = new ViewPort(buffer, 30, 20, 0, 0);
         Console console = new Console(30, 20);
         console.addViewPort(viewPort);
         console.render();
+
+        //With the facade
+        Console console2 = Console.newConsole(30, 20);
+        console2.render();
     }
 }
