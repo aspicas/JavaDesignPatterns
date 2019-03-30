@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be773dc2-30c7-4861-8c5e-41996b7b59ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweight/Exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,14 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Flyweight2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+            <state>
+              <caret selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Exercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -120,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/structural/facade/Facade.java" />
         <option value="$PROJECT_DIR$/src/creational/singleton/SingletonDataBase.java" />
         <option value="$PROJECT_DIR$/src/structural/flyweight/Flyweight2.java" />
+        <option value="$PROJECT_DIR$/src/structural/flyweight/Exercise.java" />
       </list>
     </option>
   </component>
@@ -181,15 +192,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural" type="462c0819:PsiDirectoryNode" />
               <item name="flyweight" type="462c0819:PsiDirectoryNode" />
-              <item name="Flyweight.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="SRP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SRP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
-              <item name="Flyweight2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Exercise.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +207,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553957432556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553960136759" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -234,33 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo27">
-    <configuration name="Demo23 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.Demo23" />
-      <module name="SRP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo24 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.decorator.Demo24" />
-      <module name="SRP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo28 (1)">
     <configuration name="Demo25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.facade.Demo25" />
       <module name="SRP" />
@@ -300,6 +277,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo28 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Demo28" />
+      <module name="SRP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo28" />
+      <module name="SRP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="10" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -324,20 +321,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Demo23 (1)" />
-      <item itemvalue="Application.Demo24 (1)" />
       <item itemvalue="Application.Demo25" />
       <item itemvalue="Application.Demo26" />
       <item itemvalue="JUnit.Test" />
       <item itemvalue="Application.Demo27" />
+      <item itemvalue="Application.Demo28" />
+      <item itemvalue="Application.Demo28 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo28 (1)" />
+        <item itemvalue="Application.Demo28" />
         <item itemvalue="Application.Demo27" />
         <item itemvalue="Application.Demo25" />
         <item itemvalue="Application.Demo26" />
-        <item itemvalue="Application.Demo24 (1)" />
-        <item itemvalue="Application.Demo23 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +351,7 @@
       <workItem from="1552830717622" duration="482000" />
       <workItem from="1552842326210" duration="3001000" />
       <workItem from="1552847499606" duration="1906000" />
-      <workItem from="1553937533697" duration="3885000" />
+      <workItem from="1553937533697" duration="6463000" />
     </task>
     <task id="LOCAL-00001" summary="LSP doc and OCP update">
       <created>1537323871002</created>
@@ -372,7 +369,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9274000" />
+    <option name="totallyTimeSpent" value="11852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,14 +382,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.18025751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971537" visible="true" weight="0.18025751" />
       <window_info id="Structure" order="1" sideWeight="0.50068027" side_tool="true" weight="0.32368082" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5010142" side_tool="true" weight="0.32368082" />
+      <window_info id="Favorites" order="6" sideWeight="0.5028463" side_tool="true" weight="0.18025751" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
@@ -400,7 +398,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" visible="true" weight="0.5235669" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993565" weight="0.5235669" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006435" side_tool="true" weight="0.3265306" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32880434" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32866243" />
@@ -466,22 +464,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="LSP doc and OCP update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/jdk-10.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java" />
-    <entry file="jar://$USER_HOME$/Downloads/jdk-10.0.2/lib/src.zip!/java.base/java/util/List.java" />
-    <entry file="file://$PROJECT_DIR$/src/LSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ISP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="jar://$USER_HOME$/Downloads/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Override.java" />
     <entry file="file://$PROJECT_DIR$/src/builder/Builder2.java" />
@@ -808,6 +790,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Flyweight2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Flyweight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -818,13 +810,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Flyweight2.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        <state relative-caret-position="147">
+          <caret line="2950" selection-start-line="2950" selection-end-line="2950" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#118101#118102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/flyweight/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
