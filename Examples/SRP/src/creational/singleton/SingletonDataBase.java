@@ -1,7 +1,8 @@
 package creational.singleton;
 
 import com.google.common.collect.Iterables;
-import org.junit.Test;
+//import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -11,7 +12,8 @@ import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 interface Database {
     int getPopulation(String name);
