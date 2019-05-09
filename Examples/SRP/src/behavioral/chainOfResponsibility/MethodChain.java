@@ -86,7 +86,7 @@ class Demo33 {
         System.out.println("Let's double goblin's attack...");
         root.add(new DoubleAttackModifier(goblin));
 
-        root.add(new NoBonuses(goblin));
+        //root.add(new NoBonuses(goblin));
 
         System.out.println("Let's increase goblin's defense...");
         root.add(new IncreaseDefenseModifier(goblin));
