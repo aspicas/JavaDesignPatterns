@@ -1,5 +1,6 @@
 package behavioral.command;
 
+import com.google.common.collect.Lists;
 import java.util.List;
 
 class BankAccount {
@@ -11,11 +12,13 @@ class BankAccount {
         System.out.println("Deposited " + amount + ", balance is now " + balance);
     }
 
-    public void withdraw(int amount) {
+    public boolean withdraw(int amount) {
         if (balance - amount >= overdraftLimit) {
             balance -= amount;
             System.out.println("Withdrew " + amount + ", balance is now " + balance);
+            return true;
         }
+        return false;
     }
 
     @Override
@@ -28,6 +31,7 @@ class BankAccount {
 
 interface Command {
     void call();
+    void undo();
 }
 
 class BankAccountCommand implements Command {
@@ -37,6 +41,7 @@ class BankAccountCommand implements Command {
     }
     private Action action;
     private int amount;
+    private boolean succeeded;
 
     public BankAccountCommand(BankAccount account, Action action, int amount) {
         this.account = account;
@@ -48,10 +53,24 @@ class BankAccountCommand implements Command {
     public void call() {
         switch (action) {
             case DEPOSIT:
+                succeeded = true;
                 account.deposit(amount);
                 break;
             case WITHDRAW:
+                succeeded = account.withdraw(amount);
+                break;
+        }
+    }
+
+    @Override
+    public void undo() {
+        if (!succeeded) return;
+        switch (action) {
+            case DEPOSIT:
                 account.withdraw(amount);
+                break;
+            case WITHDRAW:
+                account.deposit(amount);
                 break;
         }
     }
@@ -66,8 +85,13 @@ class Demo36 {
                 new BankAccountCommand(ba, BankAccountCommand.Action.WITHDRAW, 1000)
         );
 
-        for (BankAccountCommand c : commands) {
+        for (Command c : commands) {
             c.call();
+            System.out.println(ba);
+        }
+
+        for (Command c : Lists.reverse(commands)) {
+            c.undo();
             System.out.println(ba);
         }
     }
