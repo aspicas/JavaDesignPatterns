@@ -30,9 +30,7 @@ class TokenMachine
 
     public Memento2 addToken(int value)
     {
-        Token token = new Token(value);
-        tokens.add(token);
-        return new Memento2(tokens);
+        return addToken(new Token(value));
     }
 
     public Memento2 addToken(Token token)
