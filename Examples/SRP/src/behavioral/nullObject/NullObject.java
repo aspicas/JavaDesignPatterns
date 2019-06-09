@@ -1,5 +1,7 @@
 package behavioral.nullObject;
 
+import java.lang.reflect.Proxy;
+
 interface Log {
     void info(String msg);
     void warn(String msg);
@@ -45,8 +47,22 @@ class BankAccount {
 }
 
 class Demo48 {
+    @SuppressWarnings("unchecked")
+    public static <T> T noOp(Class<T> itf) {
+        return (T) Proxy.newProxyInstance(
+                itf.getClassLoader(),
+                new Class<?>[] { itf },
+                (proxy, method, args) -> {
+                    if (method.getReturnType().equals(Void.TYPE))
+                        return null;
+                    else
+                        return method.getReturnType().getConstructor().newInstance();
+                });
+    }
+
     public static void main(String[] args) {
-        Log log = new NullLog();
+//        Log log = new NullLog(); // Basic example
+        Log log = noOp(Log.class); // Dynamic proxy
         BankAccount account = new BankAccount(log);
         account.deposit(100);
     }
