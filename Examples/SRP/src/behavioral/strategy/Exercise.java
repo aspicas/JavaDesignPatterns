@@ -12,7 +12,7 @@ class OrdinaryDiscriminantStrategy implements DiscriminantStrategy
     @Override
     public double calculateDiscriminant(double a, double b, double c)
     {
-        // todo
+        return b*b-4*a*c;
     }
 }
 
@@ -21,7 +21,8 @@ class RealDiscriminantStrategy implements DiscriminantStrategy
     @Override
     public double calculateDiscriminant(double a, double b, double c)
     {
-        // todo
+        double result = b*b-4*a*c;
+        return result >= 0 ? result : Double.NaN;
     }
 }
 
@@ -36,12 +37,18 @@ class QuadraticEquationSolver
 
     public Pair<Complex, Complex> solve(double a, double b, double c)
     {
-        // todo
+        double disc = strategy.calculateDiscriminant(a, b, c);
+        Complex rootDisc = Complex.sqrt(disc);
+        return new Pair<>(
+                new Complex(-b,0).plus(rootDisc)
+                        .divides(new Complex(2,0))
+                        .divides(new Complex(a, 0)),
+                new Complex(-b,0).minus(rootDisc)
+                        .divides(new Complex(2,0))
+                        .divides(new Complex(a, 0))
+        );
     }
 }
-
-
-
 
 
 
@@ -196,6 +203,10 @@ class Pair<X, Y> {
 
 class Demo59 {
     public static void main(String[] args) {
-
+        DiscriminantStrategy strategy = new OrdinaryDiscriminantStrategy();
+        QuadraticEquationSolver solver = new QuadraticEquationSolver(strategy);
+        Pair<Complex, Complex> results = solver.solve(1, 10, 16);
+        System.out.println(results.first);
+        System.out.println(results.second);
     }
 }
