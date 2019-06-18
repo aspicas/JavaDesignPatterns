@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.dynamic;
 
 import java.util.List;
 
