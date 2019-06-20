@@ -1,4 +1,4 @@
-package behavioral.visitor;
+package behavioral.visitor.Intrusive;
 
 abstract class Expression {
     public abstract void print(StringBuilder sb);
