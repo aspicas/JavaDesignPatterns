@@ -3,11 +3,11 @@
 Project for educational purposes of the course of design patterns in java of Dmitri Nesteruk
 
 ## Getting Started
-Inside the Example's folder are mini projects with a main method on every .java file with examples about SOLID and Creational, Structural and Behavior patterns, where you can run an play with the examples.
+Inside the Example's folder are mini projects with a main method on every .java file with examples about SOLID and Creational, Structural and Behavior patterns, where you can run and play with the examples.
 
 Inside the doc's folder are diagrams about the mini projects allocated in Example of every pattern for a better understanding of them.
 
-## Build With
+## Built With
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE
 
