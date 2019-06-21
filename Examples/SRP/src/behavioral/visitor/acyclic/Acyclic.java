@@ -1,4 +1,4 @@
-package behavioral.visitor;
+package behavioral.visitor.acyclic;
 
 interface Visitor {} //marker interface
 
